@@ -1,5 +1,5 @@
 {% set name = "speedcopy" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/speedcopy-{{ version }}.tar.gz
-  sha256: 8bb1a6c735900b83901a7be84ba2175ed3887c13c6786f97dea48f2ea7d504c2
+  sha256: 1b2d779fadebd53a59384f7d286c40b2ef382e0d000fa53011699fcd3190d33f
 
 build:
   number: 0
